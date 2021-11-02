@@ -32,6 +32,11 @@ const routes = [
       path: 'kcgl',
       name: 'kcgl',
       component: () => import('../views/kcgl/index.vue'),
+     },
+     {
+      path: 'wd',
+      name: 'wd',
+      component: () => import('../views/wd/wd.vue'),
      }
     ]
 
